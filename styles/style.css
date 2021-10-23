@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    background-color:#9b8181;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color:#9b8181;
+    padding: 10px;
+}
+
+.maintext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #101a35;
+}
+.mainheadline {
+    font-size: 50px;
+}
+
+.roles {
+    text-align: justify;
+    font-size: 16px;
+    color: #76777c;
+    padding: 10px;
+    place-self: center;
+}
+
+.breeds {
+    text-align: justify;
+    font-size: 16px;
+    color: #76777c;
+    padding: 10px;
+    place-self: center;
+}
+
+.benefits {
+    text-align: justify;
+    font-size: 16px;
+    color: #76777c;
+    padding: 10px;
+    place-self: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+main {
+    background-color:#dde1ff;
+}
